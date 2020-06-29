@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+
+.main {
+  max-width: 900px;
+  margin: 50px auto 0;
+}
+
+.form {
+  background-color: #fff;
+}
+
+.form__header {
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.form__inputElement {
+  display: flex;
+}
+
+.form__field {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.form__newTaskButton {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  background-color: teal;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .form__inputElement {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form__newTaskButton {
+    flex-basis: 100%;
+  }
+}
+
+.form__newTaskButton:hover {
+  background-color: hsl(180, 100%, 30%);
+}
+
+.form__newTaskButton:active {
+  background-color: hsl(180, 100%, 35%);
+}
+
+.taskList {
+  background-color: #fff;
+}
+
+.taskList__header {
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0;
+}
+
+.taskList__listElement {
+  justify-content: space-center;
+  list-style: none;
+  padding: 10px;
+}
+
+.taskList__button {
+  background-color: red;
+  color: white;
+  border: none;
+}
+.taskList__button--color {
+  background-color: green;
+  color: green;
+}
+
+.js-colorWhite {
+  color: white;
+}
+
+.taskList__row {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+.taskList__text {
+  flex-grow: 1;
+  padding: 0 10px;
+}
