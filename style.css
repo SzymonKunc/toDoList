@@ -29,7 +29,7 @@ html {
   border-bottom: 1px solid #ccc;
 }
 
-.form__inputElement {
+.form__input {
   display: flex;
 }
 
@@ -49,7 +49,7 @@ html {
 }
 
 @media (max-width: 767px) {
-  .form__inputElement {
+  .form__input {
     display: flex;
     flex-wrap: wrap;
   }
