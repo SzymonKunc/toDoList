@@ -40,7 +40,7 @@ html {
   flex-grow: 1;
 }
 
-.form__newTaskButton {
+.form__newTaskBtn {
   padding: 10px;
   margin: 10px;
   border: none;
@@ -54,16 +54,16 @@ html {
     flex-wrap: wrap;
   }
 
-  .form__newTaskButton {
+  .form__newTaskBtn {
     flex-basis: 100%;
   }
 }
 
-.form__newTaskButton:hover {
+.form__newTaskBtn:hover {
   background-color: hsl(180, 100%, 30%);
 }
 
-.form__newTaskButton:active {
+.form__newTaskBtn:active {
   background-color: hsl(180, 100%, 35%);
 }
 
